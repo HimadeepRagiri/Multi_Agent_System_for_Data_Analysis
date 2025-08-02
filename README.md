@@ -56,11 +56,8 @@ Follow these steps to set up the project locally:
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone --no-checkout https://github.com/HimadeepRagiri/ML-and-DL-Projects.git
-   cd ML-and-DL-Projects
-   git sparse-checkout init --cone
-   git sparse-checkout set NLP_Projects/Multi-Agent_System_for_Data_Analysis
-   cd NLP_Projects/Multi-Agent_System_for_Data_Analysis
+   git clone https://github.com/HimadeepRagiri/Multi_Agent_System_for_Data_Analysis.git
+   cd Multi_Agent_System_for_Data_Analysis
    ```
 
 2. **Install Dependencies**:
@@ -131,6 +128,7 @@ Multi-Agent_System_for_Data_Analysis/
 ├── app.py                  # Gradio interface and main entry point
 ├── requirements.txt        # List of Python dependencies
 ├── README.md               # Project documentation (this file)
+├── LICENSE                 # MIT License
 ├── Multi-Agent_System_for_Data_Analysis.ipynb  # Full Jupyter Notebook implementation
 └── images&videos/          # Demo images and video
     ├── Multi_Agent_System_Overview.png  
@@ -226,7 +224,7 @@ Please ensure your code follows the existing style and includes appropriate docu
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](../../LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
